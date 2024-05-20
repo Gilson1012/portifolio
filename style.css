@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #925E78;
+    background-color: #b3e9e3;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.titulo{   
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+    background-color: #925E78;
+    color: #fff;
+    font-size: 30px;
+}
+.menu{
+    display: flex;  
+    justify-content: center;  
+}
+ul{
+    list-style-type: none;   
+}
+li{
+    float: left;   
+}
+a, a:link{
+    text-decoration: none;
+    padding: 8px 16px;
+    margin: 25px;
+    border: solid brown 1px;
+    background-color: #925E78;
+    color:#fff;
+}
+a:hover{
+    background-color: rgb(240, 229, 250);
+    color: #925E78;
+    transition: 0.7s;
+}
+.principal{
+    text-align: center;
+}
+table{       
+    margin: 20px auto;  
+}
+textarea{
+    margin: 15px 0;
+    width: 250px;
+    height: 100px;
+}
+button{
+    width: 100px;
+    height: 40px;
+    background-color: #925E78;
+    color: #fff;
+}
+button:hover{
+    background-color: rgb(240, 229, 250);
+    color: #925E78;
+    transition: 0.7s;
+}
+.cursos li{   
+    list-style-type: disc; 
+    float: none;    
+}
+#port{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: #b3e9e3;
+    color:#925E78;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 20px;
+}
+.portifolio{
+    text-align: center;
+    margin-top: 4%;
+}
